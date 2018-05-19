@@ -7,7 +7,7 @@ var content = function (){
 	console.log(tmp1 + "\t" + tmp2); 
 	document.getElementsByClassName("popup_close")[0].click()
 	i++; 
-	setTimeout(doLoop, 1000); 
+	setTimeout(doLoop, 1500); 
 }
 
 var doLoop = function (){
@@ -17,7 +17,7 @@ var doLoop = function (){
 	}
     $('.prize_radio')[0].checked = true; 
 	Exchange(); 
-	setTimeout(content, 1000); 
+	setTimeout(content, 1500); 
 }
 
 doLoop(); 
