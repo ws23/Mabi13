@@ -20,7 +20,7 @@ var content = function (){
 }
 
 var doLoop = function (){
-	if($('.prize_radio').length <= 0){
+	if($('.prize_radio').length <= pass){
 		console.log("總共領取了 " + i + " 個序號"); 
 		return; 
 	}
